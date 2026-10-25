@@ -1,0 +1,51 @@
+{
+  "_notice": "Fictional demonstration data only. Not official AICTE records.",
+  "bureaus": [
+    {"bureau_id":"BUR-001","code":"RB","name":"Approval Bureau"},
+    {"bureau_id":"BUR-002","code":"PGRC","name":"Grievance Cell"},
+    {"bureau_id":"BUR-003","code":"RDO-W","name":"Regional Office - West"},
+    {"bureau_id":"BUR-004","code":"ADMIN","name":"Administration Bureau"},
+    {"bureau_id":"BUR-005","code":"FIN","name":"Finance Bureau"},
+    {"bureau_id":"BUR-006","code":"RDO-S","name":"Regional Office - South"}
+  ],
+  "institutions": [
+    {"institution_id":"INST-0001","institution_code":"DEMO-001","name":"Eastern Polytechnic College","type":"Polytechnic","state":"Telangana","district":"Hyderabad","region":"South"},
+    {"institution_id":"INST-0002","institution_code":"DEMO-002","name":"Saraswati College of Engineering","type":"Engineering College","state":"Telangana","district":"Warangal","region":"South"},
+    {"institution_id":"INST-0003","institution_code":"DEMO-003","name":"Deccan Institute of Applied Sciences","type":"Engineering College","state":"Karnataka","district":"Bengaluru Urban","region":"South"},
+    {"institution_id":"INST-0004","institution_code":"DEMO-004","name":"North Valley Institute of Technology","type":"Technical University","state":"Uttar Pradesh","district":"Lucknow","region":"North"},
+    {"institution_id":"INST-0005","institution_code":"DEMO-005","name":"Coastal School of Management","type":"Management Institute","state":"Andhra Pradesh","district":"Visakhapatnam","region":"South"},
+    {"institution_id":"INST-0006","institution_code":"DEMO-006","name":"Pioneer Technical University","type":"Technical University","state":"Maharashtra","district":"Pune","region":"West"},
+    {"institution_id":"INST-0007","institution_code":"DEMO-007","name":"Greenfield Institute of Technology","type":"Engineering College","state":"Tamil Nadu","district":"Coimbatore","region":"South"},
+    {"institution_id":"INST-0008","institution_code":"DEMO-008","name":"Riverbend College of Engineering","type":"Engineering College","state":"Kerala","district":"Kochi","region":"South"},
+    {"institution_id":"INST-0009","institution_code":"DEMO-009","name":"Metro Institute of Computing","type":"Engineering College","state":"Delhi","district":"New Delhi","region":"North"},
+    {"institution_id":"INST-0010","institution_code":"DEMO-010","name":"Hillcrest Technical College","type":"Polytechnic","state":"Himachal Pradesh","district":"Shimla","region":"North"},
+    {"institution_id":"INST-0011","institution_code":"DEMO-011","name":"Sunrise College of Engineering","type":"Engineering College","state":"Rajasthan","district":"Jaipur","region":"West"},
+    {"institution_id":"INST-0012","institution_code":"DEMO-012","name":"Coastal School of Management - City Campus","type":"Management Institute","state":"Andhra Pradesh","district":"Visakhapatnam","region":"South"}
+  ],
+  "cases": [
+    {"case_id":"AICTE-2026-1042","institution_id":"INST-0004","title":"Programme approval renewal clarification","category":"Approval & Affiliation","bureau_id":"BUR-001","priority":"High","status":"Under Process","submitted_at":"2026-10-23","due_date":"2026-10-30","assigned_user_id":"USR-002"},
+    {"case_id":"AICTE-2026-1041","institution_id":"INST-0002","title":"Delay in student grievance resolution","category":"Student Grievance","bureau_id":"BUR-002","priority":"Urgent","status":"Pending","submitted_at":"2026-10-22","due_date":"2026-10-27","assigned_user_id":"USR-003"},
+    {"case_id":"AICTE-2026-1039","institution_id":"INST-0005","title":"Laboratory facilities verification","category":"Infrastructure","bureau_id":"BUR-003","priority":"Medium","status":"Under Process","submitted_at":"2026-10-20","due_date":"2026-11-05","assigned_user_id":"USR-004"},
+    {"case_id":"AICTE-2026-1037","institution_id":"INST-0003","title":"Faculty vacancy details correction","category":"Faculty & Staffing","bureau_id":"BUR-004","priority":"High","status":"Pending","submitted_at":"2026-10-19","due_date":"2026-10-26","assigned_user_id":"USR-005"},
+    {"case_id":"AICTE-2026-1034","institution_id":"INST-0001","title":"Fee filing clarification","category":"Fee & Finance","bureau_id":"BUR-005","priority":"Low","status":"Disposed","submitted_at":"2026-10-16","due_date":"2026-10-22","assigned_user_id":"USR-006"},
+    {"case_id":"AICTE-2026-1032","institution_id":"INST-0006","title":"Approval application status not updated","category":"Approval & Affiliation","bureau_id":"BUR-001","priority":"Medium","status":"Transferred","submitted_at":"2026-10-15","due_date":"2026-10-24","assigned_user_id":"USR-002"},
+    {"case_id":"AICTE-2026-1029","institution_id":"INST-0007","title":"Student complaint delayed response","category":"Student Grievance","bureau_id":"BUR-002","priority":"High","status":"Overdue","submitted_at":"2026-10-10","due_date":"2026-10-20","assigned_user_id":"USR-003"},
+    {"case_id":"AICTE-2026-1026","institution_id":"INST-0008","title":"Accessibility facilities review","category":"Infrastructure","bureau_id":"BUR-006","priority":"Medium","status":"Under Process","submitted_at":"2026-10-08","due_date":"2026-10-29","assigned_user_id":"USR-007"},
+    {"case_id":"AICTE-2026-1024","institution_id":"INST-0001","title":"Fee filing supporting records clarification","category":"Fee & Finance","bureau_id":"BUR-005","priority":"Medium","status":"Pending","submitted_at":"2026-10-07","due_date":"2026-10-18","assigned_user_id":"USR-006"},
+    {"case_id":"AICTE-2026-1021","institution_id":"INST-0009","title":"Programme approval renewal query","category":"Approval & Affiliation","bureau_id":"BUR-001","priority":"High","status":"Under Process","submitted_at":"2026-10-05","due_date":"2026-10-28","assigned_user_id":"USR-002"},
+    {"case_id":"AICTE-2026-1018","institution_id":"INST-0010","title":"Faculty data submission correction","category":"Faculty & Staffing","bureau_id":"BUR-004","priority":"Low","status":"Disposed","submitted_at":"2026-10-02","due_date":"2026-10-14","assigned_user_id":"USR-005"},
+    {"case_id":"AICTE-2026-1015","institution_id":"INST-0011","title":"Delayed response to student complaint","category":"Student Grievance","bureau_id":"BUR-002","priority":"Urgent","status":"Overdue","submitted_at":"2026-09-28","due_date":"2026-10-08","assigned_user_id":"USR-003"},
+    {"case_id":"AICTE-2026-1012","institution_id":"INST-0002","title":"Approval application document query","category":"Approval & Affiliation","bureau_id":"BUR-001","priority":"Medium","status":"Pending","submitted_at":"2026-09-25","due_date":"2026-10-31","assigned_user_id":"USR-002"},
+    {"case_id":"AICTE-2026-1009","institution_id":"INST-0005","title":"Infrastructure inspection scheduling","category":"Infrastructure","bureau_id":"BUR-003","priority":"Low","status":"Disposed","submitted_at":"2026-09-21","due_date":"2026-10-01","assigned_user_id":"USR-004"},
+    {"case_id":"AICTE-2026-1006","institution_id":"INST-0012","title":"Fee documentation clarification","category":"Fee & Finance","bureau_id":"BUR-005","priority":"Medium","status":"Under Process","submitted_at":"2026-09-18","due_date":"2026-10-29","assigned_user_id":"USR-006"},
+    {"case_id":"AICTE-2026-1003","institution_id":"INST-0001","title":"Student grievance follow-up","category":"Student Grievance","bureau_id":"BUR-002","priority":"High","status":"Pending","submitted_at":"2026-09-15","due_date":"2026-09-30","assigned_user_id":"USR-003"},
+    {"case_id":"AICTE-2026-0998","institution_id":"INST-0007","title":"Approval portal status clarification","category":"Approval & Affiliation","bureau_id":"BUR-001","priority":"Medium","status":"Transferred","submitted_at":"2026-09-10","due_date":"2026-09-25","assigned_user_id":"USR-002"},
+    {"case_id":"AICTE-2026-0994","institution_id":"INST-0008","title":"Faculty information update","category":"Faculty & Staffing","bureau_id":"BUR-004","priority":"Low","status":"Disposed","submitted_at":"2026-09-05","due_date":"2026-09-20","assigned_user_id":"USR-005"},
+    {"case_id":"AICTE-2026-0991","institution_id":"INST-0009","title":"Earlier grievance status request","category":"Student Grievance","bureau_id":"BUR-002","priority":"Medium","status":"Under Process","submitted_at":"2026-09-01","due_date":"2026-09-30","assigned_user_id":"USR-003"},
+    {"case_id":"AICTE-2026-0987","institution_id":"INST-0006","title":"Fee statement review","category":"Fee & Finance","bureau_id":"BUR-005","priority":"High","status":"Pending","submitted_at":"2026-08-25","due_date":"2026-09-10","assigned_user_id":"USR-006"},
+    {"case_id":"AICTE-2026-0982","institution_id":"INST-0004","title":"Programme approval document follow-up","category":"Approval & Affiliation","bureau_id":"BUR-001","priority":"Medium","status":"Disposed","submitted_at":"2026-08-20","due_date":"2026-09-05","assigned_user_id":"USR-002"},
+    {"case_id":"AICTE-2026-0978","institution_id":"INST-0003","title":"Staffing statement discrepancy","category":"Faculty & Staffing","bureau_id":"BUR-004","priority":"High","status":"Under Process","submitted_at":"2026-08-16","due_date":"2026-09-01","assigned_user_id":"USR-005"},
+    {"case_id":"AICTE-2026-0972","institution_id":"INST-0010","title":"Campus accessibility guidance","category":"Infrastructure","bureau_id":"BUR-006","priority":"Low","status":"Pending","submitted_at":"2026-08-10","due_date":"2026-08-25","assigned_user_id":"USR-007"},
+    {"case_id":"AICTE-2026-0965","institution_id":"INST-0011","title":"Fee filing requirements clarification","category":"Fee & Finance","bureau_id":"BUR-005","priority":"Medium","status":"Disposed","submitted_at":"2026-08-01","due_date":"2026-08-18","assigned_user_id":"USR-006"}
+  ]
+}
